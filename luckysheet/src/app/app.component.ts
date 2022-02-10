@@ -44,6 +44,8 @@ export class AppComponent implements AfterViewInit {
         this.dealUploadFile(file);
       }
     });
+
+    this.initSocket();
   }
 
   getData(): Observable<any> {
@@ -79,5 +81,26 @@ export class AppComponent implements AfterViewInit {
         });
       }
     );
+  }
+
+  initSocket() {
+    const socket = (window as any).io('http://localhost:3000');
+    socket.on('connect', function () {
+      console.log('Connected');
+
+      socket.emit('events', { test: 'test' });
+      socket.emit('identity', 0, (response: any) =>
+        console.log('Identity:', response)
+      );
+    });
+    socket.on('events', function (data: any) {
+      console.log('event', data);
+    });
+    socket.on('exception', function (data: any) {
+      console.log('event', data);
+    });
+    socket.on('disconnect', function () {
+      console.log('Disconnected');
+    });
   }
 }
