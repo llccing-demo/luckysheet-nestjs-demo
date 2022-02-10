@@ -1,0 +1,59 @@
+{
+    "optionsData":[
+        {
+            "name": "Mini",
+            "color": "",
+            "index": 0,
+            "status": 0,
+            "order": 1,
+            "celldata": [{"c":0,"r":0,"v":{"m":1,"v":1,"ct":{"fa":"General","t":"n"},"fc":"#ff0000"}}], 
+            "config": {}
+        },
+        {
+            "name": "主页", 
+            "color": "", 
+            "index": 0, 
+            "status": 1, 
+            "order": 0, 
+            "hide": 0,
+            "row": 36, 
+            "column": 18, 
+            "defaultRowHeight": 19, 
+            "defaultColWidth": 73, 
+            "celldata": [{"c":0,"r":0,"v":{"m":1,"v":1,"ct":{"fa":"General","t":"n"},"fc":"#ff0000"}}], 
+            "config": {
+                "merge":{}, 
+                "rowlen":{}, 
+                "columnlen":{}, 
+                "rowhidden":{}, 
+                "colhidden":{}, 
+                "borderInfo":{}, 
+                "authority":{}
+            },
+            "scrollLeft": 0, 
+            "scrollTop": 315, 
+            "luckysheet_select_save": [], 
+            "calcChain": [],
+            "isPivotTable":false,
+            "pivotTable":{},
+            "filter_select": {},
+            "filter": null,
+            "luckysheet_alternateformat_save": [], 
+            "luckysheet_alternateformat_save_modelCustom": [], 	
+            "luckysheet_conditionformat_save": {},
+            "frozen": {}, 
+            "chart": [], 
+            "zoomRatio":1, 
+            "image":[], 
+            "showGridLines": 1, 
+            "dataVerification":{} 
+        }
+    ],
+
+    "celldata":[
+        {"c":0,"r":0,"v":{"m":1,"v":1,"ct":{"fa":"General","t":"n"},"fc":"#ff0000"}}
+    ],
+
+    "jsonStr":["[{\"name\": \"Mini\",\"color\": \"\", \"index\": 1,\"status\": 0,\"order\": 1}]"]
+}
+
