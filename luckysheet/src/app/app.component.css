@@ -1,0 +1,20 @@
+html,
+body {
+    margin: 0;
+}
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+.tool-bar {
+    height: 100px;
+}
+
+.my-luckysheet {
+    position: absolute;
+    width: 100vw;
+    height: calc(100vh - 100px);
+    left: 0px;
+    top: 100px;
+}
