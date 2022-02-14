@@ -5,7 +5,7 @@
 - 启动后端
 
 ```bash
-cd nestjs
+cd source
 
 npm run start:dev
 ```
@@ -13,7 +13,7 @@ npm run start:dev
 - 启动前端
 
 ```bash
-cd luckysheet
+cd source/client
 
 npm run start
 ```
